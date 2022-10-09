@@ -26,7 +26,7 @@ import androidx.compose.ui.unit.dp
 
 
 @Composable
-fun CustomComponent(
+fun CircularIndicator(
     canvasSize: Dp = 300.dp,
     indicatorValue: Int = 0,
     maxIndicatorValue: Int = 100,
@@ -186,5 +186,5 @@ fun EmbeddedElements(
 @Composable
 @Preview(showBackground = true)
 fun CustomComponentPreview() {
-    CustomComponent()
+    CircularIndicator()
 }
